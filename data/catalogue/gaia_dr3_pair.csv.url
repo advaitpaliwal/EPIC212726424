@@ -1,0 +1,2 @@
+https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20source_id%2Cra%2Cdec%2Cparallax%2Cparallax_error%2Cpmra%2Cpmra_error%2Cpmdec%2Cpmdec_error%2Cphot_g_mean_mag%2Cbp_rp%2Cruwe%2Cnon_single_star%2Cradial_velocity%2Cradial_velocity_error%20from%20gaiadr3.gaia_source%20where%20source_id%20in%20%283630391411264580096%2C3630390827149024256%29
+fetched 2026-10-11T21:10:34Z

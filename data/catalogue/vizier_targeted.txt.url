@@ -1,0 +1,5 @@
+https://vizier.cds.unistra.fr/viz-bin/VizieR-4?-source=J/AJ/170/183&-c=202.74308%20-7.60062&-c.rs=5
+https://vizier.cds.unistra.fr/viz-bin/VizieR-4?-source=J/AJ/165/193&-c=202.74308%20-7.60062&-c.rs=5
+https://vizier.cds.unistra.fr/viz-bin/VizieR-4?-source=J/A+A/657/A7&-c=202.74308%20-7.60062&-c.rs=5
+https://vizier.cds.unistra.fr/viz-bin/VizieR-4?-source=J/ApJS/247/28&-c=202.74308%20-7.60062&-c.rs=5
+astroquery Vizier.find_catalogs(['K2 ultra-short period', 'K2 planet candidates', 'ExoMiner K2', 'K2 Earth-sized planets', 'K2 transiting candidates', 'Scaling K2', 'K2 short period planets']) then query_region 5 arcsec + EPIC constraint

@@ -1,0 +1,1 @@
+https://exoplanetarchive.ipac.caltech.edu/TAP/sync?format=csv&query=select+pl_name,pl_orbper,pl_orbpererr1,pl_tranmid,pl_trandur,pl_trandep,pl_ratror,pl_rade,st_rad,ra,dec,pl_refname+from+ps+where+pl_name='K2-191+b'

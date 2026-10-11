@@ -1,0 +1,27 @@
+{
+ "T0_BKJD": 2852.5911278826825,
+ "eT0": 0.0012886889244327904,
+ "P": 1.4927185694414926,
+ "eP": 4.350111307172e-06,
+ "sectors": {
+  "91": {
+   "npts": 6824,
+   "cadence_min": 3.333241973159602,
+   "aperture_npix": 4,
+   "rms_per_cadence_ppm": 9618.209009363207,
+   "rms_30min_ppm": 3206.069669787736,
+   "n_epochs_from_K2": 2081,
+   "Tpred_mid_BKJD": 5958.938470890429,
+   "Tpred_mid_BTJD": 3791.938470890429,
+   "sigma_Tpred_h": 0.219452348153135,
+   "transits_covered_nominal": 12,
+   "n_in_nominal": 221,
+   "expected_snr": 0.3393427539707584,
+   "nominal_box_depth_ppm": -1477.0011664406725,
+   "nominal_box_err_ppm": 587.3652664486548,
+   "search_max_snr": -0.45866059092218603,
+   "search_trials": 65,
+   "tic_contamination_note": "TIC contratio applies to TESS pixels (21 arcsec)"
+  }
+ }
+}

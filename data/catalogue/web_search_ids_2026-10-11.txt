@@ -1,0 +1,5 @@
+Web search 2026-10-11 (~23:15 CEST) queries and outcome:
+1. "EPIC 212726424" OR "TIC 196682692" OR "3630391411264580096" OR "UCAC4 412-055290" -> no result mentions any ID. Returned (other targets): arxiv.org/pdf/2303.14275, 2608.13895, 1805.05841, 2111.14883, 2210.10805; en.wikipedia.org/wiki/K2-296b; unrelated company pages.
+2. "212726424" K2 planet candidate -> no result mentions the ID. Returned: K2-HERMES I/II (iopscience aaa3e4, arXiv 2005.10959), arXiv 1803.04091, Dressing+ AJ aa89f2, AAS 227.13708, MNRAS 523 474, astrobiology.com 2026-01-28, NEA K2Numbers policy, core.ac.uk 137471428.
+3. "196682692" OR "196682700" OR "2MASS J13305832-0736022" TESS exoplanet -> no result mentions any ID. Returned: arXiv 2209.06958, 2507.01855, 2608.03094; Wikipedia TOI-6692 b, TOI-1338, several 2MASS brown-dwarf pages.
+Earlier log (same day): /Users/advaitpaliwal/Scratch/k2-deep/212726424/catalogue/web_search_log.txt (3 queries, no hits).

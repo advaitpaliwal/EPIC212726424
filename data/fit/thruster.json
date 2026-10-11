@@ -1,0 +1,44 @@
+{
+ "c06": {
+  "n_cad": 3857,
+  "n_fire": 182,
+  "P_thr_d": 0.24518054481450235,
+  "P_thr_h": 5.8843330755480565,
+  "P_over_Pthr": 6.0882424465177465,
+  "nearest_harmonic": {
+   "5xPthr": 1.2259027240725118,
+   "6xPthr": 1.4710832688870141,
+   "7xPthr": 1.7162638137015165
+  },
+  "frac_fire_in_transit_window": 0.038461538461538464,
+  "expected": 0.029588072840163356,
+  "flagged_frac_in": 0.0625,
+  "flagged_frac_out": 0.04672897196261682,
+  "firing_phase_coherence_on_P": 0.012773370090251902,
+  "coherence_expected_random": 0.07412493166611012,
+  "1P_mod_Pthr_frac": 0.08824244651774649,
+  "2P_mod_Pthr_frac": 0.17648489303549297,
+  "3P_mod_Pthr_frac": 0.26472733955323946
+ },
+ "c17": {
+  "n_cad": 3276,
+  "n_fire": 176,
+  "P_thr_d": 0.2452277797710849,
+  "P_thr_h": 5.8854667145060375,
+  "P_over_Pthr": 6.087069749574955,
+  "nearest_harmonic": {
+   "5xPthr": 1.2261388988554245,
+   "6xPthr": 1.4713666786265094,
+   "7xPthr": 1.7165944583975943
+  },
+  "frac_fire_in_transit_window": 0.022727272727272728,
+  "expected": 0.029588072840163356,
+  "flagged_frac_in": 0.04081632653061224,
+  "flagged_frac_out": 0.054122089364380115,
+  "firing_phase_coherence_on_P": 0.005354124948852486,
+  "coherence_expected_random": 0.07537783614444091,
+  "1P_mod_Pthr_frac": 0.08706974957495461,
+  "2P_mod_Pthr_frac": 0.17413949914990923,
+  "3P_mod_Pthr_frac": 0.26120924872486384
+ }
+}
