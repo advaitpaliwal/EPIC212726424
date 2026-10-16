@@ -13,10 +13,24 @@ A shallow dip in brightness repeats every 1.49 days in K2 Campaign 6 (2015) and 
 | Radius | 0.88 (+0.08/−0.07) R⊕ |
 | Equilibrium temperature | 936 ± 32 K |
 | Data | K2 C6 (2015 July–September) and C17 (2018 March–May), 30-minute cadence; 90 transits with in-transit data |
-| False-positive probability | 0.031 ± 0.007 (TRICERATOPS with MOLUSC Gaia limits, 10 runs); 0.151 without; NFPP 0 |
-| Wide companion | TIC 196682700 (G = 11.5, K dwarf), 65.8″ away with matching Gaia parallax and proper motion: about 6,550 AU projected |
+| False-positive probability | 0.031 ± 0.007, range 0.016–0.040 (TRICERATOPS with MOLUSC Gaia limits, 10 runs, no neighbours removed); 0.151 without; NFPP 0 |
+| Wide companion | TIC 196682700 (G = 11.5, K dwarf), 65.8″ away with matching Gaia parallax and proper motion: about 6,530 AU projected (Revision 1) |
 
-Status: **planet candidate**. Not a TOI, CTOI or K2 candidate in the NASA Exoplanet Archive as of 2026-10-11. The difference-image centroids sit 1.0″ (1.0σ) and 1.1″ (1.0σ) from the star in the two campaigns, and the box depths agree within 2σ between campaigns and across four light-curve reductions (175–226 ppm). The transit is too shallow for TESS at this brightness (Sector 91 gave no useful constraint); high-resolution imaging and precise space photometry are the next observations.
+Status: **planet candidate**. Not a TOI, CTOI or K2 candidate in the NASA Exoplanet Archive as of 2026-10-11. The in-transit difference-image centroids sit 1.0″ (1.0σ) and 1.1″ (1.0σ) from the out-of-transit centroid in the two campaigns, and the box depths agree within 2σ between campaigns and across four light-curve reductions (175–226 ppm). The transit is too shallow for TESS at this brightness (Sector 91 gave no useful constraint); high-resolution imaging and precise space photometry are the next observations.
+
+## Revision 1 (2026-10-16)
+
+The research note was revised in response to the journal editor. The false-positive probability and the joint-fit values are unchanged. The corrections are:
+
+- **False-positive probability:** FPP = 0.0314 ± 0.0069 (range 0.016–0.040), NFPP = 0, with no stars removed: the two Gaia sources in TRICERATOPS's 40″ field contribute at most 2 × 10⁻⁶ of the flux and get no scenarios. This is above the 0.015 validation threshold.
+- **Centroids:** the offsets are measured from the out-of-transit centroid (from the catalogue position they are 1.74″ and 1.19″). The centroids locate the source only to within about 3″.
+- **Per-transit χ²:** 94/84 (p = 0.22) about the weighted mean; a second, template-scaled estimator gives 129/73, and the same statistic at 13 null phases gives 0.88–1.80 (median 1.36).
+- **Period alias:** 639 and 641 cycles sit 31.0σ and 30.2σ from the Campaign 6 fit but 17.0σ and 19.9σ from the Campaign 17 fit (version 1.0 said about 30σ from either).
+- **Smaller fixes:** campaign gap 2.6 yr (was 2.7); companion separation 6,530 AU (was 6,550); target Gaia RV 13.2 ± 1.0 km s⁻¹ over 21 epochs (p = 0.32) replaces "constant radial velocity"; injections 150–257 ppm, 60/60 recovered.
+- **MOLUSC:** Gaia RUWE and contrast tests only (no imaging); 200,000 companions generated, 51% kept. ExoFOP lists no high-resolution imaging or spectroscopy for either star as of 2026-10-15.
+- **Figure 1** now has three panels: Campaigns 6 and 17 folded, both campaigns unfolded with the trend, and four single transits (`revision1/figure1_combined_EPIC212726424.png`).
+
+`revision1/scripts/numbers.py` re-derives every number quoted in the revised note; its output is `numbers.log`. Every change, with its source, is listed in [`revision1/CHANGES.md`](revision1/CHANGES.md). The revised note text is with the journal and is not included here.
 
 ## Contents
 
